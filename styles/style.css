@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
-}
-
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -33,10 +29,11 @@ main{
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     display: flex;
+    overflow: hidden;
 }
 
 .player{
-    /* flex: 30%; */
+    /* flex: 50%; */
     padding: 7rem;
     display: flex;
     flex-direction: column;
@@ -57,7 +54,7 @@ main{
     font-size: 8rem;
     font-weight: 300;
     color: #c7365f;
-    /* margin-bottom: auto; */
+    margin-bottom: 5.5rem;
 }
 
 .player-active{
@@ -80,9 +77,14 @@ main{
     background-color: #c7365f;
     border-radius: 9px;
     color: #fff;
-    padding: 1rem 5rem;
+    padding: 1rem 5.5rem;
     width: 65%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .current-label{
@@ -98,7 +100,7 @@ main{
 .btn{
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-45%);
     color: #444;
     font-size: 1.8rem;
     cursor: pointer;
@@ -120,38 +122,31 @@ main{
     top: 30rem;
 }
 
+.btn:active{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
 .dice{
     position: absolute;
     left: 50%;
     height: 8rem;
     top: 13rem;
-    transform: translateX(-50%);
+    transform: translateX(-40%);
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 
+.player-winner{
+    background: #2f2f2f;
+}
 
+.player-winner .name {
+    font-weight: 700;
+    color: #c7365f;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hidden{
+    display: none;
+}
 
 
 
