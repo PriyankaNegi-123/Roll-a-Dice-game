@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -34,7 +35,7 @@ main{
 
 .player{
     /* flex: 50%; */
-    padding: 7rem;
+    padding: 9rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +52,7 @@ main{
 }
 
 .score{
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 300;
     color: #c7365f;
     margin-bottom: 5.5rem;
@@ -102,12 +103,12 @@ main{
     left: 50%;
     transform: translateX(-45%);
     color: #444;
-    font-size: 1.8rem;
+    font-size: 1rem;
     cursor: pointer;
     font-weight: 400;
     transition: all 0.2s;
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 0.7rem 2.5rem;
+    padding: 0.7rem 1rem;
     border-radius: 50rem;
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
@@ -148,7 +149,8 @@ main{
     display: none;
 }
 
-@media (max-width: 768px){
+
+@media (max-width: 468px){
     main{
         height: 80%;
         width: 90%;
@@ -163,7 +165,7 @@ main{
 
     .player{
         /* flex: 50%; */
-        padding: 9rem 2rem;
+        padding: 1x 1px;
     }
 }
 
