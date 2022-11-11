@@ -148,7 +148,24 @@ main{
     display: none;
 }
 
+@media (max-width: 768px){
+    main{
+        height: 80%;
+        width: 90%;
+    }
 
+    .btn-roll {
+        top: 42rem;
+    }
+    .btn-hold {
+        top: 37rem;
+    }
+
+    .player{
+        /* flex: 50%; */
+        padding: 9rem 2rem;
+    }
+}
 
 
 
