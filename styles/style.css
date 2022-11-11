@@ -101,7 +101,7 @@ main{
 .btn{
     position: absolute;
     left: 50%;
-    transform: translateX(-45%);
+    transform: translateX(-50%);
     color: #444;
     font-size: 1rem;
     cursor: pointer;
@@ -156,13 +156,6 @@ main{
         width: 90%;
     }
 
-    .btn-roll {
-        top: 42rem;
-    }
-    .btn-hold {
-        top: 37rem;
-    }
-
     .player{
         /* flex: 50%; */
         padding: 1x 1px;
@@ -170,57 +163,58 @@ main{
     
     .name{
         /* position: relative; */
-        font-size: 1rem;
-        font-weight: 100;
+        font-size: 1.6rem;
+        font-weight: 700;
     }
     
     .score{
-        font-size: 2rem;
-        font-weight: 200;
+        font-size: 3rem;
+        font-weight: 700;
     }
 
     .player-active .name {
-        font-weight: 200;
+        font-weight: 700;
     }
     
     .player-active .score {
-        font-weight: 100;
+        font-weight: 700;
     }
     
     .current{
-        padding: 0.2rem 2rem;
-        width: 55%;
+        padding: 1rem 1rem;
+        width: 100%;
+        margin-top: 3.5rem;
     }
     
     .current-label{
-        margin-bottom: 0.5rem;
-        font-size: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
     }
     
     .current-score{
-        font-size: 0.5rem;
+        font-size: 1.5rem;
     }
     
     .btn{
-        font-size: 0.5rem;
+        font-size: 1.2rem;
         font-weight: 200;
-        padding: 0.2rem 1rem;
+        padding: 0.5rem 1rem;
         border-radius: 5rem;
     }
     
     .btn-new {
-        top: 2rem;
+        top: 2.5rem;
     }
     .btn-roll {
-        top: 15rem;
+        top: 28rem;
     }
     .btn-hold {
-        top: 17rem;
+        top: 31.2rem;
     }
     
     .dice{
-        height: 2rem;
-        top: 9rem;
+        height: 6rem;
+        top: 13rem;
     }
     
     .player-winner .name {
